@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="/Film.css" />
+    <script src="Film.js"></script>
+</head>
+<body >
+    <header>
+        <a href="/Home.html"><img src="/movie.png" width="50" height="50" title="Home"/></a>
+        <h1>Movies</h1>
+        <a href="/Home.html"><img src="/movie.png" width="50" height="50" title="Home"/></a>
+    </header>
+    <nav>
+        <a id="scheda" href="/SchedaTecnica.html" target="_blank">  Scheda Tecnica - </a>
+        <a id="new" href="/News.html" > - News -- </a>
+        <a id="home" href="/Home.html" target="_blank"> <img src="/home.png" title="Home" width="30" height="30" /></a>
+    </nav>
+    <br /><br />
+
+          <div class="newslet"> <!--classe usata per il CSS-->
+              <form>
+                  <div id="newsform">
+                      <!--id usato per il JS-->
+
+                      <br />
+                      <h3>Subscribe to our newsletter</h3>
+                      Name:
+                      <input id="username" type="text" placeholder="Insert your name" onkeyup="enable(this)" /> <!--onkeyup="enable(this)"-->
+
+                      <input id="subscribe" type="button" value="Subscribe" onclick="save()" disabled="disabled" /> <!--disabled="disabled"-->
+                  </div>
+                  <input id="unsubscribe" type="button" value="Unsubscribe" onclick="unsub()" style="display:none" />
+                  <br />
+              </form>
+          </div>
+    <footer>
+        &copy; Catalina Dorneanu 2021
+    </footer>
+</body>
+</html>

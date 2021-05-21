@@ -1,0 +1,71 @@
+﻿body {
+    background-color: #434d56;
+    font-family:Arial;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #d06f49;
+}
+
+nav {
+    background-color: #ec8456;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home:hover, #scheda:hover, #new:hover {
+    background-color: #503932;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #d06f49;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#trailer {
+    display: flex;
+    justify-content: center;
+    background-color: #f3b295;
+}
+
+iframe {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.det {
+    text-align: center;
+    background-color: #f3b295;
+}
+
+#trama {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+    margin-left:40px;
+}
+
+.det p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.newslet {
+    width: 100%;
+    text-align: center;
+    background-color: #f3b295;
+}
